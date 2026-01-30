@@ -244,3 +244,23 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+ /* [Table of contents]
+
+    1. BASE
+        1.1 Page Rendering Defaults
+        1.2 Core Styling
+        1.3 Typography
+    2. LAYOUT
+        2.1 Core Layout
+        2.2 Small only
+        2.3 medium and up
+        2.4 Medium only
+        2.5 large screens and up
+        2.6 Large only
+    3. MODULES
+    4. STATES
+    5. THEME
+    6. UTILITY classes
+    7. PRINT */
