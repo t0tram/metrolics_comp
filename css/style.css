@@ -245,8 +245,7 @@ textarea {
     }
 }
 
-
- /* [Table of contents]
+/* [Table of contents]
 
     1. BASE
         1.1 Page Rendering Defaults
@@ -264,3 +263,13 @@ textarea {
     5. THEME
     6. UTILITY classes
     7. PRINT */
+
+div,
+main,
+section,
+footer,
+header {
+    outline: 1px solid #ccc;
+    min-height: 1rem;
+    padding: 1rem;
+}
