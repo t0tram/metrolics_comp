@@ -320,3 +320,9 @@ header {
         display: none;
     }
 }
+
+/* theme */
+
+.service__card__image {
+    display: none;
+}
