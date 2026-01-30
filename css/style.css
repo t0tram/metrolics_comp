@@ -276,7 +276,6 @@ img {
     width: 100%;
 }
 
-
 /* 1.3 Typography */
 h1,
 h2,
@@ -292,8 +291,8 @@ p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-  /* 2. LAYOUT */
- /* 2.1 Core Layout */
+/* 2. LAYOUT */
+/* 2.1 Core Layout */
 .row {
     display: grid;
     row-gap: 1rem;
@@ -304,7 +303,6 @@ p {
     background-color: rgb(242, 230, 177);
 }
 
-
 div,
 main,
 section,
@@ -313,4 +311,12 @@ header {
     outline: 1px solid #ccc;
     min-height: 1rem;
     padding: 1rem;
+}
+
+/* 2.2 Small only */
+
+@media screen and (max-width: 39.9375em) {
+    .s-hide {
+        display: none;
+    }
 }
