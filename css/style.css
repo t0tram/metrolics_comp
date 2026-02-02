@@ -290,6 +290,9 @@ h6 {
 p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+.intro__span {
+    color: rgb(76, 176, 216);
+}
 
 /* 2. LAYOUT */
 /* 2.1 Core Layout */
@@ -314,7 +317,6 @@ header {
     padding: 1rem;
     justify-content: center;
 }
-
 /* 2.2 Small only */
 
 @media screen and (max-width: 39.9375em) {
@@ -324,8 +326,14 @@ header {
     p {
         font-size: 0.4rem;
     }
-    h1,h2,h3,h4,h5,h6{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-size: 1rem;
+        text-align: center;
     }
 }
 
