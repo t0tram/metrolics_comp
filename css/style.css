@@ -362,3 +362,23 @@ header {
     flex-direction: column;
     text-align: left;
 }
+
+button {
+    background-color: rgb(245, 175, 46);
+    border: none;
+    
+    margin-left: 0;
+}
+input {
+    background-color: salmon;
+    border: none;
+    height: 0.75rem;
+}
+input::placeholder {
+    color: white;
+}
+
+.footer__information__trackUs__form {
+    display: flex;
+    gap: 0;
+}
