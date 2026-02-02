@@ -363,10 +363,12 @@ header {
     text-align: left;
 }
 
+/* footer */
+
 button {
     background-color: rgb(245, 175, 46);
     border: none;
-    
+
     margin-left: 0;
 }
 input {
@@ -381,4 +383,37 @@ input::placeholder {
 .footer__information__trackUs__form {
     display: flex;
     gap: 0;
+}
+
+.page__footer {
+    background-color: rgb(24, 47, 76);
+    color: #fff;
+}
+
+.footer__information__trackUs__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+}
+
+.footer__information__whatsNew__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(39, 185, 242);
+    font-size: 0.75rem;
+}
+.footer__information__whatsNew__author {
+    color: rgb(39, 185, 242);
+}
+.footer__information__aboutUs__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(245, 175, 46);
+    font-size: 0.75rem;
+}
+.footer__information__instagram__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: salmon;
+    font-size: 0.75rem;
 }
