@@ -340,5 +340,25 @@ header {
 /* theme */
 
 .service__card__image {
-    display: none;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.service__card {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    align-items: start;
+}
+.service__card__name {
+    margin: 0;
+}
+.service__card__description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
