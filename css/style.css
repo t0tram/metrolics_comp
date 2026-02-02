@@ -346,13 +346,13 @@ header {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    float: left;
 }
 
 .service__card {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr;
-    align-items: start;
 }
 .service__card__name {
     margin: 0;
@@ -360,7 +360,7 @@ header {
 .service__card__description {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    float: right;
 }
 
 /* footer */
