@@ -417,3 +417,14 @@ input::placeholder {
     color: salmon;
     font-size: 0.75rem;
 }
+
+.footer__information__trackUs__social__container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Navigation bar */
+.page__header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
