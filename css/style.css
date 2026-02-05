@@ -299,7 +299,7 @@ p {
 .service__card__container {
     /* margin: 50px auto;
     text-align: center;
-    padding: 50px 20px;- bad does not work */ 
+    padding: 50px 20px;- bad does not work */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
@@ -316,8 +316,8 @@ p {
 }
 
 .service__card__image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 20px auto;
     display: flex;
     align-items: center;
@@ -397,6 +397,29 @@ header {
     display: flex;
     flex-direction: column;
     float: right;
+}
+
+/* latest post */
+
+.header {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    flex-wrap: wrap; /* Allows them to stack on mobile */
+    gap: 50px; /* Creates the space between them */
+    text-align: center; /* Centers the text and icons inside */
+}
+
+.latestWork {
+    display: flex;
+    justify-content: center;
+}
+.latestWork__post__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 120px;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
 }
 
 /* footer */
