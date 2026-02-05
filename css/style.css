@@ -296,6 +296,42 @@ p {
 
 /* 2. LAYOUT */
 /* 2.1 Core Layout */
+.service__card__container {
+    /* margin: 50px auto;
+    text-align: center;
+    padding: 50px 20px;- bad does not work */ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service__card {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 20px;
+    padding: 10px;
+}
+
+.service__card__image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__card__name {
+    padding-top: 100px;
+}
+
+.service__card__description {
+    font-size: 14px;
+    margin: 0;
+}
 
 .row {
     display: grid;
@@ -304,7 +340,7 @@ p {
 
 .col {
     position: relative;
-    background-color: rgb(242, 230, 177);
+    /* background-color: rgb(242, 230, 177); */
 }
 
 div,
@@ -312,7 +348,7 @@ main,
 section,
 footer,
 header {
-    outline: 1px solid #ccc;
+    /* outline: 1px solid #ccc; */
     min-height: 1rem;
     padding: 1rem;
     justify-content: center;
