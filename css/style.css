@@ -337,7 +337,8 @@ header {
     }
 }
 
-* 2.3 medium and up */ @media screen and (min-width: 40em) {
+ /* 2.3 medium and up  */
+@media screen and (min-width: 40em) {
     .row {
         max-width: 70rem;
         column-gap: 1.5rem;
